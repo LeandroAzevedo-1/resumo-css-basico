@@ -1,0 +1,31 @@
+/* A div class pai temm como pai a tag doby, a tag body tem como pai tag html */
+html{
+    background-color:#ccc; /*Cor do fundo */
+    font-size: 32px;
+    
+
+}
+/* 1 em e = a 16pixes da tela, px e udade de medida absoluta */
+body{
+    background-color: blueviolet;
+    width: 50%; /*O elemento que esta dentro do bodyLargura, 50% metade ta tela*/
+    font-size: 3rem; 
+}
+
+.pai{
+    background-color: #ea80fc;
+    width: 50%;/*A div pai ocupa 50% da tag body, que o pai dessa div*/
+    font-size: 1.5rem; 
+}
+
+
+.filha{
+    background-color: #1de9b6;
+    width: 50%; /*A div filha ocupa 50% de espaço da div pai*/
+    font-size: .5rem;
+}
+
+/* O rem faz u cálculo simples, porque está sempre olhando para a tag raiz html,
+ex: a tag filha .5*32= 16px 
+EX; a tag pai 1,5*32= 48px 
+Ex; a tag body 3*32 96 px, todas olham para a tag html*/ 

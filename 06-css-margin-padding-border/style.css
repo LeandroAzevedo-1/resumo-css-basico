@@ -1,0 +1,48 @@
+ 
+        /*Margin  */
+ /* p {
+    margin-top: 30px;  *margem em cima *
+    margin-bottom: 30px; *margem em baixo *
+    margin-right: 50px; *margem lado direito*
+    margin-left: 20px; *margem lado esquerdo*
+} 
+*/
+
+/*Usando menos codigo, dessa forma 25px vai ser o top e bottom e 30px 
+as laterias right e left 
+
+    p{
+        margin: 25px 30px;
+    }
+*/
+    /*O margim faz o sentido horário, comecando no top,right,bottomleft
+    Formula colocando todos lados com cada px que queremos*/
+    p{
+        margin: 30px 15px 10px 20px;
+        padding: 100px;     /*O espaçamento é dentro do elemento */
+        background-color: aquamarine;
+        /*A borda mais usado e a solid, tempo que 
+        passar valores para ela também 
+        existe varias ppropriedade 
+        border-style, podemos coloar cor */
+        border-style: solid ;
+        border-width: 20px; /*Largura da borda*/
+        border-color: red; /*Cor da borda*/
+
+        /* Border de uma jeito mais completo e pouco codigo 
+        1 largura 20px, 2 propriedade solid e 3 cor */
+
+        border: 20px solid red
+    
+    }
+
+    /* h1 {
+        border-style: solid; É a propriedade mais usada
+        border-width: 15px; Largura 
+        border-top-color: green;
+        border-bottom-color: orangered;
+        border-right-color: saddlebrown;
+        border-left-color: yellow ;
+        }
+     */
+   

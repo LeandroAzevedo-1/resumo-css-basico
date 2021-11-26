@@ -1,0 +1,23 @@
+/* Caixa é o conteúdo, o (*) é a regra rezeto o margin border padding
+
+ex:
+    *{
+        margin: 0; não aparece nenhum valor 
+    }
+*/
+*{
+    /*É colocado o padding mais não aparece quendo é 
+    inspecionado */
+    margin: 0;  
+    
+}
+/*Quando colocamos os valore em 
+margin,oadding,border eles não aparece quando inspecionado*/
+p {
+    margin: 20px;
+    padding: 20px;
+
+    border: solid 10px;
+
+    background-color: aquamarine;
+}

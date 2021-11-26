@@ -1,0 +1,8 @@
+.descricao-produto{
+        background-color: tomato;
+        color: white;
+}
+/* Estilizamos com o nome da propriedade promoção */
+.promocao {
+    border: solid 10px green;
+}

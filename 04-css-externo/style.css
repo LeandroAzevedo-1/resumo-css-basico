@@ -1,0 +1,12 @@
+      /* Vamos mudar a cor dos h2 para red  */
+      h2 {
+          background-color: red;  /*cor do fundo */
+          color: aliceblue;    /*cor da fonte*/
+      }
+      /* todo p vai esta estilizado com a fonte bluevioet, e o tamanho da fone 24px */
+      p {
+          color: blueviolet;
+          font-size: 24px;
+      } 
+
+/* Posso mudar todos os arquivos que esta linkado ao html dentro do arquivo .css */

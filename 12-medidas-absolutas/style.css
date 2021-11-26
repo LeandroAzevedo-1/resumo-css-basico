@@ -1,0 +1,8 @@
+.pixel{
+    background-color: aquamarine;
+    width: 1000px; /*largura */ 
+    height: 100px; /*altura*/
+}
+/* Essa não e boa forma de usar, porque se a gente for usar no 
+celular ex: ele vai ficar ruim 
+Como exemplo no iphone x fica afetada a imagem  */
